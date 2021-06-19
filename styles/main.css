@@ -3,8 +3,8 @@
   margin: 0;
 }
 
-body{
-    background-color: #1f98b6;
+body {
+  background-color: #1f98b6;
 }
 
 .navbar-collapse {
@@ -176,5 +176,17 @@ footer {
   }
   .hideImg {
     display: none;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .innermiddleDown img {
+    margin-top: 30px;
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+  }
+  .innermiddleUp .myJob, .innermiddleUp .myName {
+    font-size: 20px;
   }
 }
